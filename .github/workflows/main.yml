@@ -31,7 +31,9 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew build
+          cd dispatcher
           ./gradlew test
+        working-directory: dispatcher
 
       - name: Check Code Style
         run: |
