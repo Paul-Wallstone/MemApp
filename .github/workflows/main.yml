@@ -42,6 +42,7 @@ jobs:
 
       - name: Push to Docker Registry
         run: |
+          echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_USERNAME" --password-stdin
           docker tag mem-creator:latest ppuchinski/mem-creator:latest
           docker push ppuchinski/mem-creator:latest
         env:
