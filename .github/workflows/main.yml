@@ -29,11 +29,8 @@ jobs:
 
       - name: Build and Test
         run: |
-          chmod +x dispatcher/gradlew
-          cd dispatcher
+          chmod +x gradlew
           ./gradlew build
-          ./gradlew test
-        working-directory: dispatcher
 
       - name: Check Code Style
         run: |
