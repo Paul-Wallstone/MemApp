@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eb57fcc-5e76-4060-be7f-c9bdf342393f" name="Changes" comment="init" />
+    <list default="true" id="7eb57fcc-5e76-4060-be7f-c9bdf342393f" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +43,38 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="MemApp" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MemApp" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MemApp" type="f1a62948:ProjectNode" />
+                <item name="dispatcher" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MemApp" type="f1a62948:ProjectNode" />
+                <item name="dispatcher" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MemApp" type="f1a62948:ProjectNode" />
+                <item name="dispatcher" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="MemApp" type="f1a62948:ProjectNode" />
+                <item name="dispatcher" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="verification" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -61,13 +95,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/pavel/MyProjects/MemCreator/MemApp"
   }
-}</component>
-  <component name="RunManager" selected="Docker.Dockerfile">
-    <configuration name="MemApp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pavel\MyProjects\MemCreator\MemApp" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.MemApp [checkstyleMain]">
+    <configuration name="MemApp [checkstyleMain]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -78,7 +118,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="build" />
+            <option value="checkstyleMain" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -109,7 +149,28 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MemApp:dispatcher [bootTestRun]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MemApp [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemApp:dispatcher [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/dispatcher" />
@@ -120,7 +181,7 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="bootTestRun" />
+            <option value="test" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -143,15 +204,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DispatcherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="DispatcherApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="MemApp.dispatcher.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.vaider.DispatcherApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.vaider.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,11 +230,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
-        <item itemvalue="Spring Boot.DispatcherApplication" />
-        <item itemvalue="Gradle.MemApp:dispatcher [bootTestRun]" />
+        <item itemvalue="Gradle.MemApp [checkstyleMain]" />
+        <item itemvalue="Gradle.MemApp [test]" />
+        <item itemvalue="Gradle.MemApp:dispatcher [test]" />
         <item itemvalue="Gradle.MemApp [testClasses]" />
-        <item itemvalue="Gradle.MemApp [build]" />
+        <item itemvalue="Docker.Dockerfile" />
       </list>
     </recent_temporary>
   </component>
@@ -319,7 +374,28 @@
       <option name="project" value="LOCAL" />
       <updated>1698186542707</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="init">
+      <created>1698186652676</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1698186652676</updated>
+    </task>
+    <task id="LOCAL-00020" summary="init">
+      <created>1698186771070</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698186771070</updated>
+    </task>
+    <task id="LOCAL-00021" summary="init">
+      <created>1698186987337</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1698186987337</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
