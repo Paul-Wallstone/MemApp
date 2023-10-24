@@ -38,16 +38,21 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker login -u $DOCKER_HUB_USERNAME -p $DOCKER_HUB_TOKEN
-
-      - name: Push to Docker Registry
-        run: |
-          docker tag mem-creator:latest ppuchinski/mem-creator:latest
-          docker push ppuchinski/mem-creator:latest
+          docker build -t $DOCKER_HUB_USERNAME/mem-creator:latest .
         env:
           DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
-          DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
-          DOCKER_HUB_PASSWORD: ${{ secrets.DOCKER_HUB_PASSWORD }}
+
+      - name: Log in to Docker Hub
+        run: |
+          echo ${{ secrets.DOCKER_HUB_PASSWORD }} | docker login -u $DOCKER_HUB_USERNAME --password-stdin
+        env:
+          DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
+
+      - name: Push to Docker Hub
+        run: |
+          docker push $DOCKER_HUB_USERNAME/mem-creator:latest
+        env:
+          DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
 
 
 
