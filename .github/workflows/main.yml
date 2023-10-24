@@ -34,8 +34,8 @@ jobs:
 
       - name: Push to Docker Registry
         run: |
-          docker tag mem-creator:latest your-docker-username/mem-creator:latest
-          docker push your-docker-username/mem-creator:latest
+          docker tag mem-creator:latest ppuchinski/mem-creator:latest
+          docker push ppuchinski/mem-creator:latest
         env:
           DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
           DOCKER_HUB_TOKEN: ${{ secrets.DOCKER_HUB_TOKEN }}
