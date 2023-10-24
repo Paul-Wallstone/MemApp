@@ -25,8 +25,8 @@ jobs:
           ./gradlew test
 
       - name: Check Code Style
-          run: |
-           ./gradlew checkstyleMain
+        run: |
+          ./gradlew checkstyleMain
 
       - name: Build Docker Image
           run: |
