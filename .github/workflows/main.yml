@@ -38,7 +38,7 @@ jobs:
 
       - name: Build Docker Image
         run: |
-          docker build -t $DOCKER_HUB_USERNAME/mem-creator:latest .
+          docker build -t $DOCKER_HUB_USERNAME/mem-creator:latest -f ./Dockerfile .
         env:
           DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
 
