@@ -40,7 +40,8 @@ jobs:
         run: docker --version
 
       - name: Check DockerHub credentials
-        run: echo "DOCKERHUB_USERNAME=${{ secrets.DOCKER_HUB_USERNAME }}"
+        run: |
+          echo "DOCKERHUB_USERNAME=${{ secrets.DOCKER_HUB_USERNAME }}"
           echo "DOCKERHUB_TOKEN=${{ secrets.DOCKER_HUB_TOKEN }}"
 
       - name: Login to Docker Hub
