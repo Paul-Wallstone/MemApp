@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eb57fcc-5e76-4060-be7f-c9bdf342393f" name="Changes" comment="init" />
+    <list default="true" id="7eb57fcc-5e76-4060-be7f-c9bdf342393f" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/dispatcher/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,6 +75,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pavel\MyProjects\MemCreator\MemApp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pavel\MyProjects\MemCreator\MemApp\dispatcher" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.dispatcher/Dockerfile">
@@ -193,14 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697893374228</updated>
       <workItem from="1697893377285" duration="795000" />
-      <workItem from="1698506194274" duration="6464000" />
-    </task>
-    <task id="LOCAL-00002" summary="init">
-      <created>1698157659541</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1698157659541</updated>
+      <workItem from="1698506194274" duration="7158000" />
     </task>
     <task id="LOCAL-00003" summary="init">
       <created>1698183214900</created>
@@ -538,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698512916943</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="init">
+      <created>1698513257102</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1698513257102</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
