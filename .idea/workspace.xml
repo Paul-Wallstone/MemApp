@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7eb57fcc-5e76-4060-be7f-c9bdf342393f" name="Changes" comment="init" />
+    <list default="true" id="7eb57fcc-5e76-4060-be7f-c9bdf342393f" name="Changes" comment="init">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +77,7 @@
       <recent name="C:\Users\pavel\MyProjects\MemCreator\MemApp" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MemApp [clean]">
+  <component name="RunManager" selected="Gradle.MemApp [build]">
     <configuration name="MemApp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -189,8 +192,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MemApp [clean]" />
         <item itemvalue="Gradle.MemApp [build]" />
+        <item itemvalue="Gradle.MemApp [clean]" />
         <item itemvalue="Gradle.MemApp [checkstyleMain]" />
         <item itemvalue="Gradle.MemApp [test]" />
         <item itemvalue="Gradle.MemApp:dispatcher [test]" />
@@ -206,7 +209,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697893374228</updated>
       <workItem from="1697893377285" duration="795000" />
-      <workItem from="1698506194274" duration="2674000" />
+      <workItem from="1698506194274" duration="3953000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1698157037481</created>
@@ -495,7 +498,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698509081904</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="init">
+      <created>1698509190403</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1698509190403</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
