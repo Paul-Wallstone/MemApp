@@ -50,7 +50,7 @@ jobs:
         run: docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} -p ${{ secrets.DOCKER_HUB_TOKEN }}
 
       - name: Build Docker Image
-        run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/mem-creator:latest .
+        run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/mem-creator:latest -f dispatcher/Dockerfile .
 
       - name: Push to Docker Hub
         run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/mem-creator:latest
