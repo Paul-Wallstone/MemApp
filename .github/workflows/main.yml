@@ -13,12 +13,6 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v2
 
-      - name: Check Code Style
-        run: |
-          chmod +x gradlew
-          ./gradlew checkstyleMain
-
-
       - name: Set up Java
         uses: actions/setup-java@v2
         with:
@@ -31,6 +25,13 @@ jobs:
           server-password: GITHUB_TOKEN
           overwrite-settings: true
           job-status: success
+
+      - name: Check Code Style
+        run: |
+          chmod +x gradlew
+          ./gradlew checkstyleMain
+
+
       - name: Build and Test
         run: |
           ./gradlew build
