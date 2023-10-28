@@ -36,21 +36,14 @@ jobs:
         run: |
           ./gradlew checkstyleMain
 
-      - name: Build Docker Image
-        run: |
-          docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/mem-creator:latest -f ./Dockerfile .
+      - name: Login to Docker Hub
+        run: docker login -u ${{ secrets.DOCKERHUB_USERNAME }} -p ${{ secrets.DOCKERHUB_PASSWORD }}
 
-      - name: Log in to Docker Hub
-        run: |
-          echo ${{ secrets.DOCKER_HUB_PASSWORD }} | docker login -u $DOCKER_HUB_USERNAME --password-stdin
-        env:
-          DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
+      - name: Build Docker Image
+        run: docker build -t ${{ secrets.DOCKER_HUB_USERNAME }}/mem-creator:latest .
 
       - name: Push to Docker Hub
-        run: |
-          docker push $DOCKER_HUB_USERNAME/mem-creator:latest
-        env:
-          DOCKER_HUB_USERNAME: ${{ secrets.DOCKER_HUB_USERNAME }}
+        run: docker push ${{ secrets.DOCKER_HUB_USERNAME }}/mem-creator:latest
 
 
 
