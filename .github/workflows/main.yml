@@ -32,7 +32,7 @@ jobs:
           chmod +x gradlew
           ./gradlew build
           ls -l build/libs
-          ls -l dispatcher/build/libs
+          ls -l dispatcher
 
       - name: Check Code Style
         run: |
