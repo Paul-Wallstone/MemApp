@@ -76,7 +76,7 @@
       <recent name="C:\Users\pavel\MyProjects\MemCreator\MemApp" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MemApp [jar]">
+  <component name="RunManager" selected="Gradle.MemApp [clean]">
     <configuration name="MemApp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -89,27 +89,6 @@
         <option name="taskNames">
           <list>
             <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="MemApp [checkstyleMain]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="checkstyleMain" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -161,10 +140,10 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MemApp [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="MemApp:dispatcher [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/dispatcher" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" />
         <option name="taskDescriptions">
@@ -172,7 +151,28 @@
         </option>
         <option name="taskNames">
           <list>
-            <option value="test" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="MemApp:dispatcher [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/dispatcher" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -191,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MemApp [jar]" />
         <item itemvalue="Gradle.MemApp [clean]" />
         <item itemvalue="Gradle.MemApp [build]" />
-        <item itemvalue="Gradle.MemApp [checkstyleMain]" />
-        <item itemvalue="Gradle.MemApp [test]" />
+        <item itemvalue="Gradle.MemApp:dispatcher [clean]" />
+        <item itemvalue="Gradle.MemApp:dispatcher [build]" />
+        <item itemvalue="Gradle.MemApp [jar]" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +208,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697893374228</updated>
       <workItem from="1697893377285" duration="795000" />
-      <workItem from="1698506194274" duration="5550000" />
+      <workItem from="1698506194274" duration="5993000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1698157037481</created>
@@ -532,7 +532,14 @@
       <option name="project" value="LOCAL" />
       <updated>1698511129076</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="init">
+      <created>1698512144114</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1698512144114</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
