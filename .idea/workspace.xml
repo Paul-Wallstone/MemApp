@@ -76,7 +76,7 @@
       <recent name="C:\Users\pavel\MyProjects\MemCreator\MemApp" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MemApp [clean]">
+  <component name="RunManager" selected="Gradle.MemApp [build]">
     <configuration name="MemApp [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -191,8 +191,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.MemApp [clean]" />
         <item itemvalue="Gradle.MemApp [build]" />
+        <item itemvalue="Gradle.MemApp [clean]" />
         <item itemvalue="Gradle.MemApp:dispatcher [clean]" />
         <item itemvalue="Gradle.MemApp:dispatcher [build]" />
         <item itemvalue="Gradle.MemApp [jar]" />
