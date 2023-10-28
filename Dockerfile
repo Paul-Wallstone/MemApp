@@ -4,7 +4,7 @@ FROM openjdk:17
 WORKDIR /app
 
 # Копируем JAR-файл внутрь контейнера
-COPY dispatcher.jar dispatcher.jar
+COPY MemApp.jar dispatcher.jar
 
 # Выбираем порт, который будет доступен извне контейнера
 EXPOSE 8080
