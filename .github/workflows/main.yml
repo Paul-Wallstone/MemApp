@@ -31,9 +31,7 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew build
-
-      - name: Copy dispatcher.jar for Docker
-        run: cp dispatcher/build/libs/dispatcher.jar .
+          ls -l build/libs
 
       - name: Check Code Style
         run: |
